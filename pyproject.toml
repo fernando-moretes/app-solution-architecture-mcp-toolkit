@@ -1,0 +1,12 @@
+[project]
+name = "solution-architecture-mcp-toolkit"
+version = "0.1.0"
+description = "MCP-inspired tools for solution architecture workflows: ADRs, Well-Architected checks and threat models."
+requires-python = ">=3.11"
+authors = [{name = "Fernando Francisco Azevedo"}]
+
+[project.scripts]
+sa-toolkit = "sa_toolkit.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
