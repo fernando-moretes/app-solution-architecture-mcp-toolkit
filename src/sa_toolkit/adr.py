@@ -10,8 +10,7 @@ class ADR:
     status: str = "Proposed"
 
     def to_markdown(self) -> str:
-        consequences = "
-".join(f"- {item}" for item in self.consequences)
+        consequences = "\n".join(f"- {item}" for item in self.consequences)
         slug_title = self.title.strip()
         return f"""# ADR: {slug_title}
 

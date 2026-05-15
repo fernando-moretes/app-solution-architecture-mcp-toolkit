@@ -16,8 +16,7 @@ def checklist(pillars: tuple[str, ...] = PILLARS) -> str:
         for q in QUESTION_BANK[pillar]:
             lines.append(f"- [ ] {q}")
         lines.append("")
-    return "
-".join(lines)
+    return "\n".join(lines)
 
 def risk_level(open_items: int) -> str:
     if open_items <= 3:
