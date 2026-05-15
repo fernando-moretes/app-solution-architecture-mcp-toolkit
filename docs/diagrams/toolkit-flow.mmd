@@ -1,0 +1,11 @@
+flowchart TD
+  Architect[Solution Architect] --> Agent[Architecture Assistant]
+  Agent --> MCP[MCP Server]
+  MCP --> ADR[ADR Tool]
+  MCP --> WA[Well-Architected Tool]
+  MCP --> Threat[Threat Model Tool]
+  MCP --> Cost[Cost Review Tool]
+  ADR --> Repo[GitHub Architecture Repository]
+  WA --> Repo
+  Threat --> Repo
+  Cost --> Repo
