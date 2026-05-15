@@ -28,3 +28,18 @@ pytest -q
 ## Portfolio positioning
 
 This project connects Solution Architecture, AI tooling, MCP, DevSecOps and documentation practices into a practical open-source toolkit.
+
+## Frontend
+
+```bash
+cd frontend
+npm ci
+npm run lint
+npm run build
+```
+
+The frontend is a dependency-light static portfolio surface ready for Vercel deployment.
+
+## Operations
+
+See [OPERATIONS.md](OPERATIONS.md) for GitFlow, Vercel secrets and security pipeline details.
