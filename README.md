@@ -2,6 +2,17 @@
 
 A portfolio-grade toolkit for Solution Architects who want to use AI agents and MCP-style tools to accelerate architecture work while preserving discipline, governance and documentation quality.
 
+## Live portfolio / Portfolio ao vivo
+
+- **Production:** [Solution Architecture MCP Toolkit](https://mcp-toolkit.moretes.com)
+- **Documentation:** [Project docs](docs/architecture.md)
+- **GitHub:** [fernandofatech/solution-architecture-mcp-toolkit](https://github.com/fernandofatech/solution-architecture-mcp-toolkit)
+- **Author:** [Fernando Francisco Azevedo](https://fernando.moretes.com) · [LinkedIn](https://www.linkedin.com/in/fernando-francisco-azevedo/) · [GitHub](https://github.com/fernandofatech)
+
+This public repository is part of a bilingual portfolio focused on solution architecture, AWS, AI, MCP/tooling, DevSecOps, and production-ready engineering practices.
+
+Este repositório público faz parte de um portfólio bilíngue focado em arquitetura de soluções, AWS, IA, MCP/tools, DevSecOps e boas práticas de engenharia para produção.
+
 ## What it does
 
 The project provides reusable tools and templates for:
